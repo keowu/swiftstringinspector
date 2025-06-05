@@ -1,0 +1,12 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "Swift String Inspector Plugin",
+    "entryPoint": "swift_string_inspector.py",
+    "categories": ["malware-analysis", "API-scripting-and-automation", "debugging-and-tracing"],
+    "logoPath": "logo.png",
+    "idaVersions": ">=8.0",
+    "description": "This plugin allows for quick and easy correction and retrieval of all string references, optimized strings, and string arrays present in swift binaries even if they are unreferenced without complication.",
+    "version": "1.0.1"
+  }
+}
